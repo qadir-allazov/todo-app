@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Roboto:ital,wght@0,300;0,400;1,700&display=swap');
+
+.container-todo {
+    height: 100vh;
+}
+
+.my-card {
+    width: 336px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+}
+
+.my-card-top{
+    width: 334px;
+    height: 28px;
+    background: #FFDC40;
+    border-radius: 9px;
+    padding: 0;
+    margin: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.my-card-header-container {
+    width: 100%;
+    height: 34px;
+    margin-top: 13px;
+}
+
+.my-card-header {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.filter-container {
+    margin-top: 16px;
+    width: 100%;
+    text-align: end;
+}
+
+.filter-icon {
+    font-size: 23px;
+    color: #C4C4C4;
+    margin-right: 30px;
+}
+
+.todos-container {
+    margin: auto;
+    width: 286px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    margin-top: 11px;
+    margin-bottom: 18px;
+}
+
+.todo-container {
+    margin: auto;
+    width: 95%;
+    margin: 10px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.todo-input {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    margin-bottom: 0;
+}
+
+.task-operation-btn {
+    width: 10%;
+    margin-left: 10px;
+    font-size: 24px;
+    color: #C4C4C4;
+}
+
+.task-operation-btn:hover {
+    color: #833AE0;
+}
+
+.btn-container {
+    margin-top: 18px;
+    margin-bottom: 19px;
+    width: 100%;
+}
+
+.adding-btn {
+    margin: auto;
+    background: #833AE0;
+    border-radius: 71px;
+    width: 150px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    transition: ease-in .3s;
+}
+
+.circle-plus {
+    background: #9953F1;
+    border-radius: 71px;
+    padding: 6.5px;
+    padding-right: 9px;
+    padding-right: 9px;
+    outline: none;
+    border: none;
+    transition: ease-in .3s;
+}
+
+.bx-plus {
+    color: #fff;
+    font-size: 22px;
+    padding-top: 3px;
+    padding-left: 3px;
+}
+
+.adding-btn span{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
+}
+
+.adding-btn:hover{
+    background: #743eb6;
+}
+
+.circle-plus:hover {
+    background: #833AE0;
+}
+.active {
+    display: block !important;
+}
+
+.my-alert {
+    position: absolute;
+}
+
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-nav {
+    margin: 0;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.btn-nav i {
+    font-size: 22px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-nav:first-child {
+    border-end-end-radius: 0;
+    border-start-end-radius: 0;
+}
+
+.btn-nav:last-child {
+    border-end-start-radius: 0;
+    border-start-start-radius: 0;
+}
+
+.remove-error {
+    color: grey;
+    font-size: 30px;
+    margin-left: 15px;
+}
